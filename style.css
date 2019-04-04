@@ -25,17 +25,39 @@
 }
 
 .logo-center,
-.deploy-center{
+.deploy-center,
+.img-slider,
+.colonne-3,
+.tabelle,
+.get-started,
+footer{
   padding: 50px 30px;
+}
+
+footer{
+  background-color: #010F28;
+}
+
+footer .row ul li{
+  display: inline-block;
+  margin-right:10px;
+}
+
+footer .col-md-2 a{
+  display: block;
+}
+
+.tabelle{
+  background: #031b4e url(../media/homepage/data-center-map-20321538.svg);
 }
 
 .slider{
   padding: 100px 20px 100px 20px;
+  margin-top: 140px;
 }
 
-
-.slider{
-  margin-top: 140px;
+.slider,
+.get-started{
   background: #0248ff url(../media/homepage/bg-home-1-d54581d7.jpg);
 }
 
@@ -44,7 +66,8 @@
     padding: 20px;
 }
 
-.logo-center{
+.logo-center,
+.img-slider{
   background-color: #F3F5F9;
 }
 
@@ -57,4 +80,40 @@
 .list-deploy{
   display: block;
   border-left: 1px solid grey;
+}
+
+.col-md-6 span{
+  color: white;
+  font-weight: bold;
+}
+
+.col-md-7 > span{
+  opacity: 0.7;
+}
+
+.int-block span,
+.int-block a{
+  padding: 5px;
+}
+
+.int-block{
+  padding: 20px 0 20px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+div.int-block:last-of-type{
+  border-bottom: 0;
+}
+
+@media all and ( max-width: 768px){
+  .img-slider img{
+    width: 100%;
+  }
+}
+
+@media all and ( min-width: 768px) and (max-width: 992px){
+  .img-slider img{
+    width: 100%;
+  }
 }
