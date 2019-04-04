@@ -23,3 +23,18 @@
   margin-bottom: 0;
   padding: 0;
 }
+
+.slider{
+  padding: 100px 20px 100px 20px;
+}
+
+
+.slider{
+  margin-top: 140px;
+  background: #0248ff url(../media/homepage/bg-home-1-d54581d7.jpg);
+}
+
+.newsletter{
+  background-color: white;
+    padding: 20px;
+}
