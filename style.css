@@ -24,6 +24,11 @@
   padding: 0;
 }
 
+.logo-center,
+.deploy-center{
+  padding: 50px 30px;
+}
+
 .slider{
   padding: 100px 20px 100px 20px;
 }
@@ -35,6 +40,21 @@
 }
 
 .newsletter{
-  background-color: white;
+    background-color: white;
     padding: 20px;
+}
+
+.logo-center{
+  background-color: #F3F5F9;
+}
+
+.list-deploy a li{
+  list-style-type: none;
+  padding: 10px;
+
+}
+
+.list-deploy{
+  display: block;
+  border-left: 1px solid grey;
 }
