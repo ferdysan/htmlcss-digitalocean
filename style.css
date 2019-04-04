@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.navbar{
+  padding: 20px;
+}
+
+.logo{
+  height: 50px;
+}
+
+.navbar .navbar-brand {
+  padding-top: 5px;
+}
+.navbar .navbar-brand img {
+  height: 40px;
+  width: 130px;
+}
+
+.nav_top{
+  margin-bottom: 0;
+  padding: 0;
+}
