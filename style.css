@@ -23,6 +23,7 @@
   font-weight: bold;
 }
 
+
 .new,
 .stile-nav ul li a,
 h2{
@@ -33,9 +34,6 @@ h2{
   font-weight: bold;
 }
 
-.navbar .navbar-brand {
-  padding-top: 5px;
-}
 
 .navbar .navbar-brand img {
   height: 40px;
@@ -50,7 +48,7 @@ h2{
 .get-started button,
 .stile-nav .btn-default{
   color: #0168FE;
-border-radius: 5px;
+  border-radius: 5px;
   font-weight: bold;
 }
 
@@ -81,9 +79,6 @@ border-radius: 5px;
 .slider{
   padding: 100px 20px 100px 20px;
   margin-top: 120px;
-}
-
-.slider{
   background: #0248ff url('img/slider.jpg');
 }
 
@@ -222,6 +217,10 @@ footer img{
 @media all and ( max-width: 768px){
   .img-slider img{
     width: 100%;
+  }
+
+  div.int-block:last-of-type{
+    margin-bottom: 20px;
   }
 }
 

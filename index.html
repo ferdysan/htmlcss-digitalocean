@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
     <!--NAVBAR SUPERIORE-->
   <header class="navbar-fixed-top">
     <nav class="navbar navbar-default nav_top">
@@ -27,13 +28,23 @@
       </ul>
     </div>
     </nav>
+
    <!--NAVBAR INFERIORE-->
-     <nav class="navbar navbar-default">
+     <nav class="navbar navbar-default vert-allign">
      <div class="container-fluid">
        <!-- Brand and toggle get grouped for better mobile display -->
        <div class="navbar-header">
-         <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <div class="logo">
+           <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+         </div>
        </div>
+
        <!-- Collect the nav links, forms, and other content for toggling -->
        <div class="collapse navbar-collapse stile-nav" id="bs-example-navbar-collapse-1">
          <ul class="nav navbar-nav">
@@ -66,7 +77,7 @@
            </li>
            <li><a href="#">Pricing</a></li>
          </ul>
-         <button type="button" class="btn btn-default navbar-btn navbar-right">Sign in</button>
+         <a href="#" class="btn btn-default navbar-btn navbar-right">Sign in</a>
        </div><!-- /.navbar-collapse -->
        </div><!-- /.container-fluid -->
      </nav>
@@ -74,12 +85,12 @@
 
   <section class="slider">
     <div class="container">
-      <div class="row ">
-        <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
           <h1>Welcome to the developer cloud</h1>
           <p>We make it simple to launch in the cloud and scale up as you grow—whether you’re running one virtual machine or ten thousand.</p>
         </div>
-        <div class="col-md-4 col-md-offset-2 text-center">
+        <div class="col-md-4 col-xs-12 col-md-offset-2 text-center">
           <div class="newsletter padding-var">
             <h2>Deploy in seconds</h2>
             <form>
@@ -102,7 +113,7 @@
   <section class="logo-center">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 col-xs-12 text-center">
           <h4>Innovative businesses trust DigitalOcean</h4>
             <ul>
               <li><img  src="img/docker.png" alt=""></li>
@@ -113,10 +124,9 @@
               <li><img  src="img/wework.png" alt=""></li>
             </ul>
       </div>
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 col-xs-12 text-center">
           <a href="#">View customer stories <i class="fas fa-chevron-right"></i></a>
         </div>
-
       </div>
   </section>
 <!--SEZIONE NAV LATERALE-->
@@ -130,9 +140,8 @@
       hosted services, client websites, or CI/CD environments.</p>
         </div>
      </div>
-     <div class="container">
        <div class="row">
-         <div class="col-md-3 col-md-offset-1"">
+         <div class="col-md-3 col-xs-12 col-md-offset-1">
             <ul class="list-deploy">
               <a href="#"><li>Deploy</li></a>
               <a href="#"><li>Deploy</li></a>
@@ -141,35 +150,35 @@
               <a href="#"><li>Deploy</li></a>
             </ul>
          </div>
-         <div class="col-md-3">
+         <div class="col-md-3 col-xs-12">
              <i class="fas fa-laptop-code"></i>
              <h3>Cluster deployments</h3>
              <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
          </div>
-         <div class="col-md-3">
+         <div class="col-md-3 col-xs-12">
            <i class="fas fa-laptop-code"></i>
            <h3>Cluster deployments</h3>
            <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
          </div>
-         <div class="col-md-3">
+         <div class="col-md-3 col-xs-12">
            <i class="fas fa-laptop-code"></i>
            <h3>Cluster deployments</h3>
            <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
          </div>
-         <div class="col-md-3">
+         <div class="col-md-3 col-xs-12">
            <i class="fas fa-laptop-code"></i>
            <h3>Cluster deployments</h3>
            <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
          </div>
         </div>
-       </div>
+
      </div>
   </section>
   <!--Prima sezione slider-->
   <section class="img-slider">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 col-xs-12 text-center">
           <h2>Designed for developers</h2>
           <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
           <img src="img/slider-img.jpg" alt="">
@@ -181,22 +190,22 @@
   <section class="colonne-3">
     <div class="container">
      <div class="row">
-       <div class="col-md-12 text-center">
+       <div class="col-md-12 col-xs-12 text-center">
          <h2>The features your business needs</h2>
        </div>
-       <div class="col-md-4">
+       <div class="col-md-4 col-xs-12">
          <i class="far fa-sticky-note"></i>
          <h4>Predictable pricing</h4>
          <p>Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.</p>
          <a href="#">Pricing <i class="fas fa-chevron-right"></i></a>
        </div>
-       <div class="col-md-4">
+       <div class="col-md-4 col-xs-12">
          <i class="far fa-sticky-note"></i>
          <h4>World-class service</h4>
          <p>Free round-the-clock technical support for all customers. You’ll feel the love.</p>
          <a href="#">Support <i class="fas fa-chevron-right"></i></a>
        </div>
-       <div class="col-md-4">
+       <div class="col-md-4 col-xs-12">
          <i class="far fa-sticky-note"></i>
          <h4>Reliable platform</h4>
          <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
@@ -210,168 +219,168 @@
   <section class="tabelle">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 col-xs-12 text-center">
           <h2>Service your customers around the world from 12 regions.</h2>
         </div>
-          <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
             <div class="int-block">
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-2">
                 <span>AMS2</span>
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7 col-xs-7">
                 <span>Amsterdam, Netherlands</span>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-xs-3">
                 <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
               </div>
             </div>
             <div class="int-block">
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-2">
                 <span>AMS2</span>
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7 col-xs-7">
                 <span>Amsterdam, Netherlands</span>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-xs-3">
                 <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
               </div>
             </div>
             <div class="int-block">
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-2">
                 <span>AMS2</span>
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7 col-xs-7">
                 <span>Amsterdam, Netherlands</span>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-xs-3">
                 <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
               </div>
             </div>
             <div class="int-block">
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-2">
                 <span>AMS2</span>
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7 col-xs-7">
                 <span>Amsterdam, Netherlands</span>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-xs-3">
                 <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
               </div>
             </div>
             <div class="int-block">
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-2">
                 <span>AMS2</span>
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7 col-xs-7">
                 <span>Amsterdam, Netherlands</span>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-xs-3">
                 <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
               </div>
             </div>
             <div class="int-block">
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-2">
                 <span>AMS2</span>
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7 col-xs-7">
                 <span>Amsterdam, Netherlands</span>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-xs-3">
                 <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
               </div>
             </div>
             <div class="int-block">
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-2">
                 <span>AMS2</span>
               </div>
-              <div class="col-md-7">
+              <div class="col-md-7 col-xs-7">
                 <span>Amsterdam, Netherlands</span>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 col-xs-3">
                 <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
               </div>
             </div>
           </div>
-
-
-        <div class="col-md-6">
+        <div class="col-md-6 col-xs-12">
           <div class="int-block">
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-2">
               <span>AMS2</span>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 col-xs-7">
               <span>Amsterdam, Netherlands</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-xs-3">
               <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
             </div>
           </div>
           <div class="int-block">
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-2">
               <span>AMS2</span>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 col-xs-7">
               <span>Amsterdam, Netherlands</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-xs-3">
               <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
             </div>
           </div>
           <div class="int-block">
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-2">
               <span>AMS2</span>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 col-xs-7">
               <span>Amsterdam, Netherlands</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-xs-3">
               <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
             </div>
           </div>
           <div class="int-block">
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-2">
               <span>AMS2</span>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 col-xs-7">
               <span>Amsterdam, Netherlands</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-xs-3">
               <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
             </div>
           </div>
           <div class="int-block">
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-2">
               <span>AMS2</span>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 col-xs-7">
               <span>Amsterdam, Netherlands</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-xs-3">
               <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
             </div>
           </div>
           <div class="int-block">
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-2">
               <span>AMS2</span>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 col-xs-7">
               <span>Amsterdam, Netherlands</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-xs-3">
               <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
             </div>
           </div>
           <div class="int-block">
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-2">
               <span>AMS2</span>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 col-xs-7">
               <span>Amsterdam, Netherlands</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-xs-3">
               <a href="#">Test Speed <i class="fas fa-chevron-right"></i></a>
             </div>
           </div>
+        </div>
         </div>
         </div>
       </div>
@@ -380,7 +389,7 @@
   <section class="img-slider">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 col-xs-12 text-center">
           <h2>Designed for developers</h2>
           <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
           <img src="img/slider-img.jpg" alt="">
@@ -393,7 +402,7 @@
   <section class="get-started">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 col-xs-12 text-center">
           <h2>Get started now.</h2>
           <button type="submit" class="btn btn-default ">Create your account</button>
         </div>
@@ -403,7 +412,7 @@
  <footer>
    <div class="container">
      <div class="row">
-       <div class="col-md-4">
+       <div class="col-md-4 col-xs-12">
          <div class="tiny-logo">
            <img src="img/tiny-logo.png" alt="">
          </div>
@@ -416,46 +425,47 @@
            <li><a href="#"><i class="fab fa-youtube fa-2x"></i></a></li>
          </ul>
        </div>
-       <div class="col-md-2">
-         <h5>Company</h5>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
+       <div class="row">
+         <div class="col-md-2 col-sm-6 col-xs-12">
+           <h5>Company</h5>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
 
-       </div>
-       <div class="col-md-2">
-         <h5>Company</h5>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
+         </div>
+         <div class="col-md-2 col-sm-6 col-xs-12">
+           <h5>Company</h5>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
 
-       </div>
-       <div class="col-md-2">
-         <h5>Company</h5>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
+         </div>
+         <div class="col-md-2 col-sm-6 col-xs-12">
+           <h5>Company</h5>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
 
+         </div>
+         <div class="col-md-2 col-sm-6 col-xs-12">
+           <h5>Company</h5>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
+           <a href="#">about</a>
+         </div>
        </div>
-       <div class="col-md-2">
-         <h5>Company</h5>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
-         <a href="#">about</a>
-       </div>
-
      </div>
    </div>
   </footer>
